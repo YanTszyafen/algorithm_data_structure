@@ -5,7 +5,8 @@ using namespace std;
 
 int main(){
     int n;
-    int *a = new int [n];
+    //int *a = new int [n];
+    int a[5000];
     ifstream if_in;
     if_in.open("input.txt");
     if_in >> n;
